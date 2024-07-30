@@ -1,0 +1,89 @@
+body{
+ margin-top: 90px;
+ 
+}
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.9;
+ }
+ .navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+  
+ }
+ .navbar .nav-item .nav-link:last-child {
+  padding-right: 0;
+ }
+ .navbar .nav-item .nav-link {
+  color: #252526;
+
+ } 
+ .navbar .nav-item .nav-link:hover {
+  color: #3292a6;
+ } 
+
+
+ /*--showcash--*/
+ #showcash{
+  position: relative;
+  background-image: url('../img/mountains.jpg');
+  min-height: 660px;
+
+ }
+#showcash .primary-overlay{
+  background: rgba(50,146,156,0.7);
+   min-height: 660px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  }
+  #showcash .btn{
+    border:1px solid #fff ;
+  }
+
+
+
+/*--SUBSCRIBE----*/
+#subscribe{
+  background: #252525;
+}
+
+
+   /*--AUTHORE--*/
+
+#Meet-section img{
+  margin-top: -50px;
+}
+
+#Meet-section .card:hover{
+  background: #3292a6;
+  color: #fff;
+}
+#Meet-section .card:hover .fa{
+ 
+  color: #fff;
+}
+
+#Meet-section .fa{
+ font-size: 25px;
+}
+
+
+
+
+
+
+   /*--media--*/
+  @media(max-width: 576px){
+    #showcash h1{
+      font-size: 4rem;
+    }
+  }
+   @media(max-width: 279px){
+    #showcash h1{
+      font-size: 20px;
+    }
+  }
